@@ -1,0 +1,246 @@
+/* ここから下に記載していく */
+html{
+    width:1200px;
+}
+
+#header{
+    /* ヘッダー一行目*/
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    color: azure;
+}
+
+.header{
+    /* ヘッダあー一行目 */
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#head{
+    /* ヘッダーの背景に画像埋め込み */
+    background-image: url(../img/mainbg.png);
+    width: 100%;
+}
+
+.about{
+    text-align: center;
+}
+
+.yellowtop{
+    color: rgb(235, 214, 56);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.yellowsecond{
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.yellowmain{
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.f-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+}
+
+.aboutimg{
+    width: 25%;
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.blacktop{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.blackmain{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+/* Course欄 */
+.courseset {
+    display: flex; /* Flexbox モデルを指定 */
+    width: 100%; /* コンテナの幅を指定 */
+    align-items: center; /* 垂直方向の中央揃えを指定 */
+}
+
+.courseimg {
+    flex: 0 0 50%; /* flex-grow: 0, flex-shrink: 0, flex-basis: 50% */
+}
+
+.courseimg img {
+    width: 100%; /* 画像がコンテナの幅いっぱいになるようにする */
+    height: auto; /* 画像の比率を保持 */
+}
+
+.coursebun {
+    flex: 0 0 45%; /* flex-grow: 0, flex-shrink: 0, flex-basis: 45% */
+    flex-direction: column; /* 子要素を縦に並べる */
+    text-align: left; /* テキストを左寄せにする */
+    margin-left: 5%; /* 画像との間に10%のマージンを設ける */
+}
+
+.cousesethead {
+    font-weight: bolder; /* タイトルを太字にする */
+    margin-bottom: 5px; /* タイトルと本文の間に5pxの間隔を設ける */
+}
+
+.courserightbun{
+    text-align: right;
+}
+
+/* ニュース欄 */
+.news{
+    display:flex;
+    flex-direction: column;
+}
+
+.newsrole{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.newsbox{
+    flex-direction: row;
+}
+
+.newsdate{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.newsbun{
+    font: 15px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.more{
+    background-color:  rgb(235, 214, 56);
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom:  50px;
+    color: aliceblue;
+}
+
+/* グレー部分 */
+.gray{
+    background-color: rgba(248, 246, 246, 0.866);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.map{
+    margin:0px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.infot{
+    width:12%;
+    margin-left:35%;
+    text-align: left
+}
+
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: auto;
+    border-width: 1px;
+}
+
+.formlabel {
+    flex-basis: 30%;
+    text-align: left;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-left: 5%;
+}
+
+input[type="text"],
+textarea {
+    flex-grow: 1;
+}
+
+.radios{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="radio"],input[type="checkbox"]{
+    vertical-align:middle;
+}
+
+.radiolab{
+    text-align: left;
+    margin-left: 15%;
+    flex-wrap: nowrap;
+    /* noweapにしても折り返されちゃう。 */
+}
+.submit{
+    align-self: center;
+}
+
+.sousin{
+    background-color:  rgb(235, 214, 56);
+    width: 200px;
+    height: 35px;
+    border: 0px;
+    color: white;
+    margin-top: 20px;
+}
+
+.bottom {
+    width: 100%;
+    background-color: aquamarine;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 100px;
+}
